@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: testGroup
+        namespace: c2567bef-205d-47ed-8f76-23d000ee0c69

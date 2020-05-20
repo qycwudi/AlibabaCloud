@@ -1,0 +1,30 @@
+server:
+  port: 2001
+spring:
+  application:
+    name: seata-order-2001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    alibaba:
+      seata:
+        tx-service-group: qyc_tx_group
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/seata_order
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+#logging:
+#  level: info
+mybatis:
+  config-location: classpath:mybatis/mybatis.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"

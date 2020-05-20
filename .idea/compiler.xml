@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sentinel8401" />
+        <module name="pay8002" />
+        <module name="seata_account2003" />
+        <module name="seata_storage2002" />
+        <module name="config3377" />
+        <module name="pay8003" />
+        <module name="OrderBean" />
+        <module name="order81" />
+        <module name="seata_order2001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos8848" target="1.8" />
+      <module name="pay8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

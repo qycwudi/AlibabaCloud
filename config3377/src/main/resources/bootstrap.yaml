@@ -1,0 +1,13 @@
+server:
+  port: 3377
+spring:
+  application:
+    name: nacof-config-client-3377
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #服务注册中心
+      config:
+        server-addr: localhost:8848 #配置中心
+        file-extension: yaml  #指定格式配置
+        #application.name - profile.active.config.file-extension

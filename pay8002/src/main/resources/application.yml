@@ -1,0 +1,32 @@
+server:
+  port: 8002
+spring:
+  profiles:
+    active: test
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/qycs
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+  application:
+    name: pay-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+mybatis:
+  mapper-locations: classpath:mybatiscfg/mapper/*.xml
+  config-location: classpath:mybatiscfg/mybatis.xml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

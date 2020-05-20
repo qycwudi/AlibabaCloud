@@ -1,0 +1,10 @@
+# Project exclude paths
+/config3377/target/
+/order81/target/
+/OrderBean/target/
+/pay8002/target/
+/pay8003/target/
+/seata_account2003/target/
+/seata_order2001/target/
+/seata_storage2002/target/
+/sentinel8401/target/
